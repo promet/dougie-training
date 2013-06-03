@@ -1,0 +1,12 @@
+name = BBB Update test
+description = Support module for update module testing.
+package = Testing
+core = 7.x
+hidden = TRUE
+
+
+; Information added by drush on 2013-06-03
+version = "7.22+46-dev"
+project = "drupal"
+datestamp = "1370271394"
+

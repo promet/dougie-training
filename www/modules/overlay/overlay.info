@@ -1,0 +1,12 @@
+name = Overlay
+description = Displays the Drupal administration interface in an overlay.
+package = Core
+version = VERSION
+core = 7.x
+
+
+; Information added by drush on 2013-06-03
+version = "7.22+46-dev"
+project = "drupal"
+datestamp = "1370271394"
+

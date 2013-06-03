@@ -1,0 +1,14 @@
+name = Content translation
+description = Allows content to be translated into different languages.
+dependencies[] = locale
+package = Core
+version = VERSION
+core = 7.x
+files[] = translation.test
+
+
+; Information added by drush on 2013-06-03
+version = "7.22+46-dev"
+project = "drupal"
+datestamp = "1370271394"
+

@@ -1,0 +1,14 @@
+name = Tracker
+description = Enables tracking of recent content for users.
+dependencies[] = comment
+package = Core
+version = VERSION
+core = 7.x
+files[] = tracker.test
+
+
+; Information added by drush on 2013-06-03
+version = "7.22+46-dev"
+project = "drupal"
+datestamp = "1370271394"
+
