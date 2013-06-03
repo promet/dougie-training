@@ -1,0 +1,11 @@
+name = Advanced help
+description = Allow advanced help and documentation.
+core = 7.x
+
+
+; Information added by drush on 2013-06-03
+version = "7.x-1.0+4-dev"
+core = "7.x"
+project = "advanced_help"
+datestamp = "1370271411"
+

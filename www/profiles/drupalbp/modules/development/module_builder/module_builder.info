@@ -1,0 +1,13 @@
+name = Module Builder
+description = Builds scaffolding for custom modules.
+package = Development
+core = 7.x
+
+files[] = module_builder.module
+files[] = includes/module_builder.admin.inc
+
+; Information added by drush on 2013-06-03
+version = ""
+project = "module_builder"
+datestamp = "1370271422"
+

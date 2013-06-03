@@ -1,0 +1,25 @@
+name = Module filter
+description = "Filter the modules list."
+core = 7.x
+
+files[] = module_filter.install
+files[] = module_filter.js
+files[] = module_filter.module
+files[] = module_filter.admin.inc
+files[] = module_filter.theme.inc
+
+files[] = css/module_filter.css
+files[] = css/module_filter_tab.css
+
+files[] = js/module_filter.js
+files[] = js/module_filter_tab.js
+
+configure = admin/config/user-interface/modulefilter
+
+
+; Information added by drush on 2013-06-03
+version = "7.x-1.7+0-dev"
+core = "7.x"
+project = "module_filter"
+datestamp = "1370271415"
+

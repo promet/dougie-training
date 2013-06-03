@@ -1,0 +1,12 @@
+name = Libraries
+description = Allows version-dependent and shared usage of external libraries.
+core = 7.x
+files[] = tests/libraries.test
+
+
+; Information added by drush on 2013-06-03
+version = "7.x-2.0+7-dev"
+core = "7.x"
+project = "libraries"
+datestamp = "1370271488"
+

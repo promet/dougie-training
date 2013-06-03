@@ -1,0 +1,12 @@
+name = Advanced help example
+description = A example help module to demonstrate the advanced help module.
+core = 7.x
+dependencies[] = advanced_help
+
+
+; Information added by drush on 2013-06-03
+version = "7.x-1.0+4-dev"
+core = "7.x"
+project = "advanced_help"
+datestamp = "1370271411"
+
