@@ -30,7 +30,7 @@ $drush fra -y &&
 $drush cc all -y &&
 $drush dis comment shortcut overlay toolbar -y &&
 $drush fr -y --force commons_main_menu &&
-$drush cc menu &&
+$drush cc menu
 
 #$drush scr $build_path/script/set_theme.php &&
 #$drush scr $build_path/script/feeds_import.php
