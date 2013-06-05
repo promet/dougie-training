@@ -12,4 +12,5 @@ features[features_api][] = api:1
 features[field][] = node-funny_dev_mistakes-body
 features[field][] = node-funny_dev_mistakes-field_devmistakes_screenshot
 features[node][] = funny_dev_mistakes
+features[variable][] = field_bundle_settings_node__funny_dev_mistakes
 features[views_view][] = funny_dev_mistakes
