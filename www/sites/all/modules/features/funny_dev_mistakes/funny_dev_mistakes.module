@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Funny Dev Mistakes feature.
+ */
+
+include_once 'funny_dev_mistakes.features.inc';

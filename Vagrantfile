@@ -23,7 +23,6 @@ Vagrant.configure("2") do |config|
 
   config.ssh.max_tries = 40
   config.ssh.timeout   = 120
-  config.ssh.port      = 3374
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.

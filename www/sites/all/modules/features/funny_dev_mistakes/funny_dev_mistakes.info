@@ -1,0 +1,12 @@
+name = Funny Dev Mistakes
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = image
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = node-funny_dev_mistakes-body
+features[field][] = node-funny_dev_mistakes-field_devmistakes_screenshot
+features[node][] = funny_dev_mistakes
+features[views_view][] = funny_dev_mistakes

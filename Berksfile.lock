@@ -1,6 +1,5 @@
 cookbook 'drupal_projects', :path => '/Users/MrMaksimize/Work/drupal_projects_make'
 cookbook 'solo-helper', :git => 'https://github.com/glennpratt/solo-helper_cookbook.git', :ref => '183b6e411c930ac8e7c638ad3cb10cae6a8af8fc'
-cookbook 'chef-xdebug', :git => 'https://github.com/MrMaksimize/chef-xdebug.git', :ref => 'b33ebf4f9975d25ce47719eec6f02183b22970a0'
 cookbook 'apt', :locked_version => '1.9.0'
 cookbook 'database', :locked_version => '1.3.12'
 cookbook 'mysql', :locked_version => '2.1.2'
