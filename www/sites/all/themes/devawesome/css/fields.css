@@ -46,6 +46,7 @@
 .field-type-image {
   float: left;
   clear: left;
+  margin: 0 0.8em 0.8em 0;
 }
 
 .field-type-file {
