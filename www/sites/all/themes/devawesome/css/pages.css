@@ -42,6 +42,7 @@ body {
 
 a, a:link {
   color: #3366ff;
+  text-decoration: none;
 }
 
 a:visited, a.visited {
