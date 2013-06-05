@@ -55,3 +55,17 @@
   -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
+
+/*
+ * View funny_dev_mistakes
+ */
+.view-funny-dev-mistakes .views-row {
+  float: left;
+  clear: both;
+}
+
+.views-field-field-devmistakes-screenshot {
+  float: left;
+  clear: left;
+  margin: 0 0.8em 0.8em 0;
+}
