@@ -80,12 +80,12 @@ a:focus, a:hover {
 }
 #site-name a:link,
 #site-name a:visited {
-  color: #ffff00;
+  color: #3366ff;
   text-decoration: none;
 }
 #site-name a:hover,
 #site-name a:focus {
-  color: #ffff99;
+  color: #33ccff;
   text-decoration: none;
 }
 
