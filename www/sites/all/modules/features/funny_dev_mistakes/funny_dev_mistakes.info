@@ -1,9 +1,12 @@
 name = Funny Dev Mistakes
 core = 7.x
 package = Features
+php = 5.2.4
 dependencies[] = features
 dependencies[] = image
+dependencies[] = strongarm
 dependencies[] = views
+features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
 features[field][] = node-funny_dev_mistakes-body

@@ -46,6 +46,10 @@ function funny_dev_mistakes_views_default_views() {
   $handler->display->display_options['fields']['body']['label'] = '';
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['body']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['body']['type'] = 'text_summary_or_trimmed';
+  $handler->display->display_options['fields']['body']['settings'] = array(
+    'trim_length' => '400',
+  );
   /* Field: Content: Screenshot */
   $handler->display->display_options['fields']['field_devmistakes_screenshot']['id'] = 'field_devmistakes_screenshot';
   $handler->display->display_options['fields']['field_devmistakes_screenshot']['table'] = 'field_data_field_devmistakes_screenshot';
@@ -55,7 +59,7 @@ function funny_dev_mistakes_views_default_views() {
   $handler->display->display_options['fields']['field_devmistakes_screenshot']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['field_devmistakes_screenshot']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_devmistakes_screenshot']['settings'] = array(
-    'image_style' => 'thumbnail',
+    'image_style' => 'medium',
     'image_link' => 'content',
   );
   /* Sort criterion: Content: Post date */
